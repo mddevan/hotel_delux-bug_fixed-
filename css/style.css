@@ -1,0 +1,541 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'AR DECODE';
+    src: url(../fonts/ARDECODE.ttf);
+
+}
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url(../fonts/DroidSans.ttf);
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*header start*/
+
+header {
+    min-height: 90px;
+    background-color: #2a2e33;
+}
+
+.wrapper {
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header_logo {
+    float: left;
+    margin-top: 32px;
+}
+
+.subtitle {
+    color: #c6c7c9;
+    font-size: 13px;
+    margin-left: 14px;
+    font-style: italic;
+    float: left;
+    margin-top: 34px;
+    font-weight: 100;
+    font-family: Quicksand;
+
+}
+
+.header_nav {
+    float: right;
+    width: 63%;
+
+}
+
+.header_nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.header_nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 35px 17px;
+    font-weight: bold;
+    font-family: 'Droid Sans';
+}
+
+
+.header_nav ul li a:hover {
+    background-color: #1e2329;
+    padding: 34.5px 15px;
+    border-top: 4px solid #ffd700;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {
+    min-height: 400px;
+    background-color: #00ccff;
+    color: #ffffff;
+
+    position: relative;
+}
+
+.banner_content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    height: 350px;
+}
+
+.banner_content p {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.bcolor {
+    font-weight: bold;
+}
+
+.banner_content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.view_pricing {
+    background-color: #2a2e33;
+    width: 895px;
+    height: 70px;
+    position: absolute;
+    border: none;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -36px;
+}
+
+.form_group {
+    float: left;
+}
+
+.form_group label {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #b89f11;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+}
+
+.common_date_style {
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background: url(../images/calender-icon.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    margin-left: 17px;
+    padding: 0 30px;
+}
+
+.room_selection {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 17px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../images/bottom-arrow.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    padding: 0 30px;
+
+}
+
+.view_price_btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border: none;
+    border-radius: 7px;
+    background-color: #ffd700;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+/*banner end*/
+
+/*package start*/
+
+.package {
+    min-height: 500px;
+    background: url(../images/room-book-bg.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-bottom: 1px solid #949698;
+
+}
+
+.pakage_text {
+    overflow: hidden;
+    text-align: center;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.pakage_text h1 {
+    font-size: 60px;
+    font-family: 'AR DECODE';
+    font-weight: 300;
+}
+
+.pakage_text p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.package_slider {
+    width: 975px;
+    height: 225px;
+    margin: 0 auto;
+}
+
+.left_indicator {
+    float: left;
+    margin-top: 100px;
+}
+
+.single_circle {
+    width: 200px;
+    height: 195px;
+    background: white;
+    border: 3px solid #2a2e33;
+    float: left;
+    border-radius: 130px;
+    margin-left: 62px;
+    margin-top: 30px
+}
+
+.right_indicator {
+    float: right;
+    margin-top: 100px;
+}
+
+/*package end*/
+
+/*room_type start*/
+
+.room_type {
+    background: url(../images/room-type-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 900px;
+    overflow: hidden;
+}
+
+.room_type_title {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.room_type_title h1 {
+    font-size: 60px;
+    font-family: 'AR DECODE';
+    font-weight: 300;
+}
+
+.wrapper_2 {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.all_room_type {
+    margin-left: 60px;
+}
+
+.single_room_type {
+    width: 32%;
+    float: left;
+}
+
+.room_image {
+    width: 95%;
+}
+
+.room_image img {
+    width: 100%;
+}
+
+.room_type_data {
+    text-align: center;
+    overflow: hidden;
+    width: 410px;
+}
+
+.room_type_data h1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.room_type_data p1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.room_facilities {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.single_room_type:nth-child(4) {
+    margin-top: 25px;
+}
+
+.single_room_type:nth-child(5) {
+    margin-top: 25px;
+}
+
+.single_room_type:nth-child(6) {
+    margin-top: 25px;
+}
+
+/*room type end*/
+
+/*banner_2 start*/
+
+.banner_2 {
+    height: 200px;
+    background: #e7cb2c;
+    position: relative;
+}
+
+.banner2_wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 200px;
+}
+
+.banner_2_content {
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.banner_2_content h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.banner_2_content blockquote {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+    margin-top: 18px;
+}
+
+.banner_2_img {
+    float: right;
+    position: absolute;
+    /*    left: 70%;*/
+    bottom: -6.5%;
+    width: 25%;
+    right: 0%;
+
+}
+
+.banner_2_img img {
+    width: 90%;
+
+}
+
+/*banner_2_end*/
+
+/*footer start*/
+
+footer {
+    min-height: 400px;
+
+    overflow: hidden;
+}
+
+.footer_top {
+    min-height: 315px;
+    background: #333333;
+    overflow: hidden;
+}
+
+.footer_wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.footer_content {
+    color: #ffffff;
+}
+
+.footer_about {
+    width: 17%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.footer_about h1 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Droid Sans';
+}
+
+
+.footer_about p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.footer_news {
+    width: 20%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.footer_news h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Droid Sans';
+}
+
+.footer_news p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.common_news {
+    font-size: 10px;
+    font-weight: 300;
+    color: #e7cb2c;
+    margin-bottom: 7px;
+}
+
+.footer_join {
+    width: 32%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.footer_join h1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Droid Sans';
+}
+
+.footer_join p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.fg_button button {
+    background: #e7cb2c;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: 'Droid Sans';
+}
+
+.footer_form {
+    width: 20%;
+    float: left;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.footer_form h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 11px;
+    font-family: 'Droid Sans';
+}
+
+.footer_form label {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.ft_username {
+    width: 85%;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background: transparent;
+    margin-top: 5px;
+}
+
+.ft_password {
+    width: 85%;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background: transparent;
+    margin-top: 5px;
+}
+
+.login_bt button {
+    background: #e7cb2c;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 7px;
+    margin-top: 15px;
+    font-family: 'Droid Sans';
+}
+
+.footer_bottom {
+    min-height: 35px;
+    background: #1f1f1f;
+}
+
+/*footer end*/
